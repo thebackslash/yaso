@@ -15,6 +15,8 @@ pipeline {
 
                 // Run Maven on a Unix agent.
                 bat "mvn clean package"
+                bat "docker image build -t jaso ."
+                bat "docker run jaso:latest"
 
             }
 
@@ -22,6 +24,10 @@ pipeline {
         }
 
   post {
+   success {
+                      junit '**/target/surefire-reports/TEST-*.xml'
+                      archiveArtifacts 'yaso-webapp/target/*.war'
+                  }
         failure {
 		echo "Application failed ***********"
         }
