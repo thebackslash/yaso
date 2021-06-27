@@ -11,8 +11,6 @@ pipeline {
         stage('Build') {
             steps {
 
-
-
                 git branch: 'main', url: 'https://github.com/thebackslash/yaso.git'
 
                 // Run Maven on a Unix agent.
