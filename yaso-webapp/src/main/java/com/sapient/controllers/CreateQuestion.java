@@ -40,8 +40,7 @@ public class CreateQuestion extends HttpServlet {
 		Question question = QuestionCreator.questionCreator(request);
 		questionDAO.addQuestion(question);
 		
-		 String URI = "index.jsp";
-	     request.getRequestDispatcher(URI).forward(request,response);
+		response.sendRedirect(request.getContextPath() + "/questions");
 		
 	}
 

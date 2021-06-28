@@ -16,7 +16,7 @@ pipeline {
                 // Run Maven on a Unix agent.
                 bat "mvn clean package"
                 bat "docker image build -t jaso ."
-                bat "docker run jaso:latest"
+                bat "docker run --name jaso-app -p 8080:8080 jaso:latest"
 
             }
 

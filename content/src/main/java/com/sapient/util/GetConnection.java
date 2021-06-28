@@ -19,9 +19,10 @@ import static org.bson.codecs.configuration.CodecRegistries.fromRegistries;
 public class GetConnection {
 
 public static MongoCollection getCollectionFromDatabase(String dbName, String collection, Class clss){
+    String URI = GetProperties.getProperty("URI");
     CodecRegistry pojoCodecRegistry = fromRegistries(MongoClientSettings.getDefaultCodecRegistry(),
             fromProviders(PojoCodecProvider.builder().automatic(true).build()));
-    ConnectionString connectionString = new ConnectionString("mongodb+srv://aarsh:aarsh@cluster0.urdbc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");
+    ConnectionString connectionString = new ConnectionString(URI);
     MongoClientSettings settings = MongoClientSettings.builder().codecRegistry(pojoCodecRegistry).applyConnectionString(connectionString)
             .build();
     MongoClient mongoClient = MongoClients.create(settings);

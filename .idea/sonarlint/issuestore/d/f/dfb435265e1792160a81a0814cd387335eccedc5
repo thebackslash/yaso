@@ -1,0 +1,15 @@
+
+i	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ¨äŠûÿÿÿÿ
+K
+java:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿ
+S
+java:S1161":Add the "@Override" annotation above this method signature(Ïû©Öûÿÿÿÿ
+T	java:S125"<This block of commented-out lines of code should be removed.(‚ÓëŒÿÿÿÿÿ
+z
+java:S1989"aHandle the following exceptions that could be thrown by "forward": ServletException, IOException.(™¾şüıÿÿÿÿ
+N
+java:S1161":Add the "@Override" annotation above this method signature(‹¨¯¿
+x
+java:S1989"_Handle the following exceptions that could be thrown by "doGet": ServletException, IOException.(®Ó‘ûÿÿÿÿÿ
+K
+java:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ

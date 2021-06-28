@@ -1,1 +1,5 @@
-com\sapient\App.class
+com/sapient/contracts/IUser.class
+com/sapient/App.class
+com/sapient/utilities/JPAconnection.class
+com/sapient/entities/User.class
+com/sapient/services/UserService.class

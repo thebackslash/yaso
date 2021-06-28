@@ -1,0 +1,28 @@
+[Mon Jun 28, 2021 07:51:50,832 AM] [main           ] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: yaso]
+[Mon Jun 28, 2021 07:51:50,915 AM] [main           ] org.hibernate.Version HHH000412: Hibernate ORM core version 6.0.0.Alpha8
+[Mon Jun 28, 2021 07:51:51,166 AM] [main           ] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[Mon Jun 28, 2021 07:51:52,055 AM] [main           ] org.hibernate.orm.connections.pooling HHH10001002: Using built-in connection pool (not intended for production use)
+[Mon Jun 28, 2021 07:51:52,066 AM] [main           ] org.hibernate.orm.connections.pooling HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+[Mon Jun 28, 2021 07:51:52,067 AM] [main           ] org.hibernate.orm.connections.pooling HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+[Mon Jun 28, 2021 07:51:52,068 AM] [main           ] org.hibernate.orm.connections.pooling HHH10001001: Connection properties: {password=****, user=postgres}
+[Mon Jun 28, 2021 07:51:52,069 AM] [main           ] org.hibernate.orm.connections.pooling HHH10001003: Autocommit mode: false
+[Mon Jun 28, 2021 07:51:52,074 AM] [main           ] org.hibernate.orm.connections.pooling HHH10001115: Connection pool size: 20 (min=1)
+[Mon Jun 28, 2021 07:51:52,265 AM] [main           ] SQL dialect HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[Mon Jun 28, 2021 07:51:53,331 AM] [main           ] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[Mon Jun 28, 2021 07:51:53,532 AM] [main           ] org.hibernate.engine.jdbc.spi.SqlExceptionHelper SQL Error: 0, SQLState: 42P01
+[Mon Jun 28, 2021 07:51:53,533 AM] [main           ] org.hibernate.engine.jdbc.spi.SqlExceptionHelper ERROR: relation "users" does not exist
+  Position: 117
+[Mon Jun 28, 2021 07:52:31,527 AM] [main           ] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: yaso]
+[Mon Jun 28, 2021 07:52:31,608 AM] [main           ] org.hibernate.Version HHH000412: Hibernate ORM core version 6.0.0.Alpha8
+[Mon Jun 28, 2021 07:52:31,887 AM] [main           ] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[Mon Jun 28, 2021 07:52:32,740 AM] [main           ] org.hibernate.orm.connections.pooling HHH10001002: Using built-in connection pool (not intended for production use)
+[Mon Jun 28, 2021 07:52:32,752 AM] [main           ] org.hibernate.orm.connections.pooling HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+[Mon Jun 28, 2021 07:52:32,753 AM] [main           ] org.hibernate.orm.connections.pooling HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+[Mon Jun 28, 2021 07:52:32,754 AM] [main           ] org.hibernate.orm.connections.pooling HHH10001001: Connection properties: {password=****, user=postgres}
+[Mon Jun 28, 2021 07:52:32,754 AM] [main           ] org.hibernate.orm.connections.pooling HHH10001003: Autocommit mode: false
+[Mon Jun 28, 2021 07:52:32,758 AM] [main           ] org.hibernate.orm.connections.pooling HHH10001115: Connection pool size: 20 (min=1)
+[Mon Jun 28, 2021 07:52:32,952 AM] [main           ] SQL dialect HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[Mon Jun 28, 2021 07:52:34,147 AM] [main           ] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[Mon Jun 28, 2021 07:52:34,389 AM] [main           ] org.hibernate.engine.jdbc.spi.SqlExceptionHelper SQL Error: 0, SQLState: 42P01
+[Mon Jun 28, 2021 07:52:34,389 AM] [main           ] org.hibernate.engine.jdbc.spi.SqlExceptionHelper ERROR: relation "users" does not exist
+  Position: 117
