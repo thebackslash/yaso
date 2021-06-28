@@ -5,5 +5,6 @@ com\sapient\entity\Answer.class
 com\sapient\entity\Votes.class
 com\sapient\services\AnswerService.class
 com\sapient\util\GetConnection.class
-com\sapient\App.class
+com\sapient\util\GetProperties.class
 com\sapient\entity\Question.class
+com\sapient\util\App.class

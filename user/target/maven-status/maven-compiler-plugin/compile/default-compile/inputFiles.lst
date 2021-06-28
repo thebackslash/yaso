@@ -1,5 +1,6 @@
-/home/pdrojack/Desktop/projects/progressive-project/training/user/src/main/java/com/sapient/entities/User.java
-/home/pdrojack/Desktop/projects/progressive-project/training/user/src/main/java/com/sapient/App.java
-/home/pdrojack/Desktop/projects/progressive-project/training/user/src/main/java/com/sapient/services/UserService.java
-/home/pdrojack/Desktop/projects/progressive-project/training/user/src/main/java/com/sapient/utilities/JPAconnection.java
-/home/pdrojack/Desktop/projects/progressive-project/training/user/src/main/java/com/sapient/contracts/IUser.java
+D:\training\progressive - project\phase 1\yaso-main\user\src\main\java\com\sapient\services\UserService.java
+D:\training\progressive - project\phase 1\yaso-main\user\src\main\java\com\sapient\contracts\IUser.java
+D:\training\progressive - project\phase 1\yaso-main\user\src\main\java\com\sapient\entities\JasoUser.java
+D:\training\progressive - project\phase 1\yaso-main\user\src\main\java\com\sapient\entities\User.java
+D:\training\progressive - project\phase 1\yaso-main\user\src\main\java\com\sapient\App.java
+D:\training\progressive - project\phase 1\yaso-main\user\src\main\java\com\sapient\utilities\JPAconnection.java

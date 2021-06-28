@@ -2,8 +2,9 @@ D:\training\progressive - project\phase 1\yaso-main\content\src\main\java\com\sa
 D:\training\progressive - project\phase 1\yaso-main\content\src\main\java\com\sapient\contracts\IQuestionDAO.java
 D:\training\progressive - project\phase 1\yaso-main\content\src\main\java\com\sapient\entity\Question.java
 D:\training\progressive - project\phase 1\yaso-main\content\src\main\java\com\sapient\entity\Answer.java
-D:\training\progressive - project\phase 1\yaso-main\content\src\main\java\com\sapient\App.java
 D:\training\progressive - project\phase 1\yaso-main\content\src\main\java\com\sapient\util\GetConnection.java
+D:\training\progressive - project\phase 1\yaso-main\content\src\main\java\com\sapient\util\App.java
 D:\training\progressive - project\phase 1\yaso-main\content\src\main\java\com\sapient\contracts\IAnswerDAO.java
 D:\training\progressive - project\phase 1\yaso-main\content\src\main\java\com\sapient\entity\Votes.java
 D:\training\progressive - project\phase 1\yaso-main\content\src\main\java\com\sapient\services\QuestionService.java
+D:\training\progressive - project\phase 1\yaso-main\content\src\main\java\com\sapient\util\GetProperties.java

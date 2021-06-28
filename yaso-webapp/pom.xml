@@ -30,17 +30,14 @@
       <groupId>com.sapient</groupId>
       <artifactId>content</artifactId>
       <version>1.0-SNAPSHOT</version>
+
     </dependency>
     <dependency>
       <groupId>com.sapient</groupId>
       <artifactId>user</artifactId>
       <version>1.0-SNAPSHOT</version>
     </dependency>
-    <dependency>
-      <groupId>com.sapient</groupId>
-      <artifactId>yaso</artifactId>
-      <version>1.0-SNAPSHOT</version>
-    </dependency>
+
     <dependency>
       <groupId>javax.servlet</groupId>
       <artifactId>jstl</artifactId>

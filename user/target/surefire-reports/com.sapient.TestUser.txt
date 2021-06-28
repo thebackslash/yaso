@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: com.sapient.TestUser
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0.009 s <<< FAILURE! - in com.sapient.TestUser
+com.sapient.TestUser.test_create_another_user()  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.sapient.TestUser.test_create_another_user(TestUser.java:34)
+
+com.sapient.TestUser.test_validate_correct_user_credentials()  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.sapient.TestUser.test_validate_correct_user_credentials(TestUser.java:50)
+
+com.sapient.TestUser.test_validate_incorrect_user_credentials()  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (2 failures)
+	java.lang.NullPointerException: <no message>
+	java.lang.NullPointerException: <no message>
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:80)
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:44)
+	at org.junit.jupiter.api.AssertAll.assertAll(AssertAll.java:38)
+	at org.junit.jupiter.api.Assertions.assertAll(Assertions.java:2894)
+	at com.sapient.TestUser.test_validate_incorrect_user_credentials(TestUser.java:56)
+
+com.sapient.TestUser.test_get_user()  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.sapient.TestUser.test_get_user(TestUser.java:40)
+
+com.sapient.TestUser.test_create_user()  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.sapient.TestUser.test_create_user(TestUser.java:28)
+
